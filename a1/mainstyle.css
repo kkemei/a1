@@ -3,6 +3,8 @@
 
 html {
 	height: 100%;
+	font-family: "Comic Sans MS", cursive;
+	color: #FFF;	
 }
 
 body {
@@ -11,13 +13,16 @@ body {
 	margin: 0px;
 	height: 100%;
 	clear: both;
+		background-image: 			url(images/book-fair-678264_1280.jpg);
+	background-attachment: fixed;
 }
+
 
 #header {
 	background-color: #333333;
 	color: #FFF;
 	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-bottom: 20px;
 	text-align: center;
 	color: #FFF;
 	position: fixed;
@@ -25,23 +30,68 @@ body {
     z-index: 100
 }
 
-#h1 {
+h1 {
 	font-family: "Comic Sans MS", cursive;
-	font-size: x-large;
+	font-size: 32px;
 	height: 100%;
 	width: 100%;
+	color: #FFF;
+}
+
+h2 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 30px;
+	height: 100%;
+	width: 100%;
+	color: #FFF;
+	text-align: center;
 }
 
 #content {
-	background-color: #F00;
 	overflow: auto;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	margin-left: 20%;
-	padding-top: 10px;
+	margin-left: 15%;
+	padding-top: 137px;
 	padding-bottom: 10px;
-	padding-left: 10px;
+	padding-left: 30px;
+	text-align: center;	
+	height: 100%;
+
+	//-webkit-filter: blur(5px);
+//	filter: blur(5px);
+}
+
+
+img {
+		border-radius: 50%;
+		float: left;
+		margin-right: 25px;
+}
+
+button {
+	font-family: "Comic Sans MS", cursive;
+	background-color: #3F0;
+	font-size: 26px;
+	height: 20%;
+	width: 30%;
+	padding: 1%;
+	border-radius: 20%;
+}
+
+#buttons {
+	font-family: "Comic Sans MS", cursive;
+	list-style-type: none;
+	allign: center;
+}
+
+#buttons ul {
+	list-style-type: none;
+}
+
+#buyButton {
+	float: right;
 }
 
 #section{
@@ -50,7 +100,7 @@ body {
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	margin-left: 20%;
+	margin-left: 15%;
 }
 
 #footer {
@@ -66,11 +116,14 @@ body {
 }
 
 #nav {
-	width: 20%;
+	width: 15%;
 	height: 100%;
 	font-size: 18px;
 	float: left;
-	padding: 0px;
+	padding-top: 110px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
 }
 
 #nav ul {
@@ -81,16 +134,19 @@ body {
 	background-color: #333;
 	position: fixed;
 	height: 100%;
-	width: 20%;
+	width: 15%;
 }
 
 
 #nav li a {
 	display: block;
-	padding: 10px 10px;
 	color: white;
 	text-align: center;
 	height: 30px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
 }
 
 #nav li a:hover {
@@ -103,6 +159,5 @@ body {
 }
 
 #info {
-	width 40%
 	
 }
