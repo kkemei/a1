@@ -8,13 +8,14 @@ html {
 }
 
 body {
-	background-color: #CCC;
 	padding: 0px;
 	margin: 0px;
 	height: 100%;
 	clear: both;
-		background-image: 			url(images/book-fair-678264_1280.jpg);
+	background-image: 			url(images/book-fair-678264_1280.jpg);
 	background-attachment: fixed;
+	//-webkit-filter: blur(5px);
+	//filter: blur(5px);
 }
 
 
@@ -54,13 +55,11 @@ h2 {
 	margin-bottom: 0px;
 	margin-left: 15%;
 	padding-top: 137px;
-	padding-bottom: 10px;
+	padding-bottom: 55px;
 	padding-left: 30px;
-	text-align: center;	
+	text-align: center;
 	height: 100%;
-
-	//-webkit-filter: blur(5px);
-//	filter: blur(5px);
+	color: #FFF;
 }
 
 
@@ -151,11 +150,6 @@ button {
 
 #nav li a:hover {
     background-color: #111;
-}
-
-#nav li a:active {
-	background-color: #4CAF50;
-	color: #F00;
 }
 
 #info {
